@@ -7,6 +7,8 @@ public :
         vector<int> result = {};
 
         if (i == 2) result.push_back(2);
+        if (i == 3) result.push_back(3);
+
         return result;
     }
 
