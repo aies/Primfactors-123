@@ -7,9 +7,7 @@ public :
         vector<int> result = {};
         
         if (number > 1) {
-            int divisor = 2;
-
-            for (divisor = 2; number > 1; divisor++) {
+            for (int divisor = 2; number > 1; divisor++) {
                 while (number % divisor == 0) {
                     result.push_back(divisor);
                     number /= divisor;
